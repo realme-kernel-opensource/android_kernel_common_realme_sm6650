@@ -874,7 +874,7 @@ config UCLAMP_BUCKETS_COUNT
 	  precision.
 
 	  If in doubt, use the default value.
-
+source "kernel/oplus_cpu/sched/Kconfig"
 endmenu
 
 #
@@ -2033,3 +2033,4 @@ config ARCH_HAS_SYSCALL_WRAPPER
 	def_bool n
 
 source "init/Kconfig.gki"
+source "init/Kconfig.gki-debug"
